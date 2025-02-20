@@ -5,7 +5,6 @@ from .to_hetero_transformer import to_hetero
 from .to_hetero_with_bases_transformer import to_hetero_with_bases
 from .to_fixed_size_transformer import to_fixed_size
 from .encoding import PositionalEncoding, TemporalEncoding
-from .model_hub import PyGModelHubMixin
 from .summary import summary
 
 from .aggr import *  # noqa
@@ -18,6 +17,7 @@ from .dense import *  # noqa
 from .kge import *  # noqa
 from .models import *  # noqa
 from .functional import *  # noqa
+from .nlp import *  # noqa
 
 __all__ = [
     'Reshape',
@@ -28,6 +28,5 @@ __all__ = [
     'to_fixed_size',
     'PositionalEncoding',
     'TemporalEncoding',
-    'PyGModelHubMixin',
     'summary',
 ]
